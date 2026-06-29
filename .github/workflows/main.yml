@@ -5,7 +5,7 @@ on:
       - dev
 env:
   AWS_REGION: us-east-1
-  S3_BUCKET_NAME: nirma-av-dev
+  S3_BUCKET_NAME: aws-nirmaworkshop-av22
 jobs:
   deploy:
     runs-on: ubuntu-latest
